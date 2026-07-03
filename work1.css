@@ -1,0 +1,31 @@
+<!--h1{
+    color:blue;
+}
+
+#afternoon{
+    color:brown;
+}
+
+.heading{
+    color:green
+}
+
+*{
+    background-color: pink;
+} -->
+ul li{
+    color:red;
+}
+
+ul>li{
+    color:green;
+}
+h1+p{
+    color:blue;
+}
+h1~p{
+    color:yellow;
+}
+input[type="text"]{
+    color:white;
+}
