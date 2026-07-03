@@ -1,0 +1,14 @@
+ /*.box1{
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    background-image: url("flower.jpg");
+    background-repeat: repeat;
+
+}*/
+body{
+    background-image: url("flower.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

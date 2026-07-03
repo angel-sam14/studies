@@ -14,9 +14,9 @@
 } */
  body{
    /* margin: 0px;*/
-   /*background-color: lightpink;
-   background-image: url(https://www.rawpixel.com/image/17625909/png-real-white-frangipani-flower-blossom-petals#eyJrZXlzIjoic2luZ2xlIGZsb3dlciIsInNvcnRlZEtleXMiOiJmbG93ZXIgc2luZ2xlIn0=);*/
-background-image:radial-gradient(circle at top, blue, lightblue); 
+   background-color: lightpink;
+   background-image: url(https://www.rawpixel.com/image/17625909/png-real-white-frangipani-flower-blossom-petals#eyJrZXlzIjoic2luZ2xlIGZsb3dlciIsInNvcnRlZEtleXMiOiJmbG93ZXIgc2luZ2xlIn0=);
+/*background-image:radial-gradient(circle at top, blue, lightblue); */
 }
 /*p{
   
