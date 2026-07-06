@@ -1,0 +1,61 @@
+div{
+    /*background-color: rgb(199, 103, 103);*/
+    width: 100px;
+    height: 100px;
+  /* opacity: 0.5;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+}
+
+/*div:hover{
+    background-color: rgb(190, 82, 82);
+}
+a{
+    color:red;
+}
+a:hover{
+    color:green
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color:yellow;
+}
+input:focus{
+    background-color: red;
+}
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+input::placeholder{
+    color: lightgreen;
+}
+ol ::marker{
+    color: lightgreen;
+}
+div:hover{
+    transform: translate(600px) rotate(360deg);
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+
+}*/
+
+@keyframes move{
+    from{
+        transform: translatey(0px) rotate(0deg);
+    }
+    to{
+        transform: translatey(300px)rotate(360deg);
+    }
+}
+div img{
+    height: 100px;
+    width: 100px;
+    animation: move 2s ease-in 0s infinite normal;
+}
