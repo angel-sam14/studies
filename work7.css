@@ -1,0 +1,32 @@
+/* .main{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+}
+.main2{
+    background-color: blue;
+    height: 100px;
+    display: inline;
+}
+a{
+    background-color: yellow;
+    height: 100px;
+    display: block
+} */
+ .main{
+    /*width: 500px;*/
+    height: 500px;
+    background-color: pink;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+ .sub{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+ }

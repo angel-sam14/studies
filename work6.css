@@ -1,0 +1,38 @@
+.main{
+    
+    width: 500px;
+    height: 700px;
+    background-color: lightblue;
+    position: relative;
+}
+.sub{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    /* position:absolute;*/
+   /* right: 0px; */
+    position: sticky;
+    top: 30px;
+
+} 
+.main2{
+
+    width: 500px;
+    height: 100vh;
+    background-color: lightcoral;
+
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
