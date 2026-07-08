@@ -1,0 +1,87 @@
+/* .main{
+   height: 500px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.sub{
+    height: 100px;
+   /* width: 100px;*/
+   /* border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.sub1{
+    flex: 1;
+}
+.sub2{
+    flex: 2;
+}
+.sub3{
+    flex: 2;
+}
+.sub4{
+    flex: 1;
+} */ 
+ @import url('https://fonts.googleapis.com/css2?family=Yuyu+Short&display=swap');
+ body{
+    margin:0px;
+ }
+ .navbar{
+    background-color: pink;
+    height: 60px;
+    display: flex;
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+ .logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+ .search{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .search input{
+    width: 75%;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+ }
+ .search .search_icon{
+    position: relative;
+    right: 30px;
+    color: rgb(110, 104, 104);
+ }
+ .services{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .services ul{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+ }
+ .services  ul li:hover{
+    transition: 0.5s ease;
+    transform: scale(2.1);
+ }
+
