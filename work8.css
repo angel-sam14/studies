@@ -84,4 +84,27 @@
     transition: 0.5s ease;
     transform: scale(2.1);
  }
+ @media screen and (max-width:426px) {
+   .services ul{
+      display: none;
+   }
+   .search input{
+      display: none;
+   }
+   .search .search_icon{
+      right:0px;
+      font-size: 25px;
+   }
+   .search{
+      justify-content: flex-end;
+   }
+   .services{
+      justify-content: flex-start;
+   }
+ }
+ @media screen and (min-width:426px) {
+   .services .menu{
+      display: none;
+   }
+ }
 

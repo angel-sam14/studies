@@ -1,0 +1,26 @@
+.main{
+    height: 100px;
+    background-color: pink;
+}
+p{
+    font-size: 60px;
+}
+@media  screen and (max-width:769px){
+    .main{
+        background-color: powderblue;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+@media  screen and (max-width:426px){
+    .main{
+        background-color: maroon;
+    }
+
+}
+@media screen and (max-width:321px){
+    p{
+        font-size: 20px;
+    }
+}
