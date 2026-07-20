@@ -1,0 +1,403 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+body{
+background:#fff;
+}
+
+/* Offer */
+
+.offer{
+
+height:44px;
+background:#f5f5f7;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+font-size:14px;
+
+}
+
+.offer a{
+
+margin-left:5px;
+
+text-decoration:none;
+
+color:#0066cc;
+
+}
+
+/* Navbar */
+
+nav{
+
+height:48px;
+
+display:flex;
+
+justify-content:space-around;
+
+align-items:center;
+
+background:white;
+
+position:sticky;
+
+top:0;
+
+z-index:999;
+
+backdrop-filter:blur(20px);
+
+}
+
+.logo{
+
+font-size:22px;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:25px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+
+color:#171718;
+
+font-size:14px;
+
+}
+
+.icons{
+
+display:flex;
+
+gap:20px;
+
+font-size:18px;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:90vh;
+
+background:url("iphone.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+justify-content:center;
+
+align-items:flex-start;
+
+text-align:center;
+
+padding-top:60px;
+
+}
+
+.hero-content h1{
+
+font-size:60px;
+
+color:rgb(17, 17, 17);
+
+font-weight:700;
+
+}
+
+.hero-content h2{
+
+font-size:30px;
+
+color:rgb(10, 10, 10);
+
+margin-top:10px;
+
+font-weight:400;
+
+}
+
+.hero-btn{
+
+margin-top:30px;
+
+display:flex;
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.hero-btn a{
+
+text-decoration:none;
+
+padding:12px 24px;
+
+background:#0071e3;
+
+color:rgb(250, 234, 234);
+
+border-radius:30px;
+
+font-size:17px;
+
+}
+
+.shop{
+
+background:transparent !important;
+
+border:1px solid #0071e3;
+
+color:#0071e3 !important;
+
+}
+/* ===========================
+   MacBook Air
+=========================== */
+
+.macbook-air{
+    width:100%;
+    height:90vh;
+    margin-top:12px;
+    background:url("macbook.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    text-align:center;
+    padding-top:60px;
+}
+
+.mac-content h1{
+    font-size:56px;
+    font-weight:700;
+    color:#1d1d1f;
+}
+
+.mac-content h2{
+    font-size:28px;
+    font-weight:400;
+    color:#1d1d1f;
+    margin-top:10px;
+    line-height:1.4;
+}
+/* ===========================
+   iPad + MacBook Pro
+=========================== */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    padding:12px;
+}
+
+.product-card{
+    height:580px;
+    border-radius:18px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    overflow:hidden;
+}
+
+.ipad-card{
+    background:url("ipad.jpg") center/cover no-repeat;
+}
+
+.mac-card{
+    background:url("macbookpro.jpg") center/cover no-repeat;
+}
+
+.product-content{
+    margin-top:45px;
+}
+
+.product-content h2{
+    font-size:52px;
+    font-weight:700;
+    letter-spacing:-1px;
+}
+
+.light h2{
+    color:#1d1d1f;
+}
+
+.dark h2{
+    color:#fff;
+}
+
+.ipad-title span{
+    font-style:italic;
+    font-weight:500;
+    background:linear-gradient(90deg,#0b7cff,#53c2ff,#4f7cff);
+   /* -webkit-background-clip:text;*/
+    -webkit-text-fill-color:transparent;
+}
+
+.light p{
+    color:#1d1d1f;
+}
+
+.dark p{
+    color:#fff;
+}
+
+.product-content p{
+    font-size:26px;
+    margin-top:8px;
+}
+
+.btn-group{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+    margin-top:22px;
+}
+
+.btn{
+    background:#0071e3;
+    color:#fff;
+    padding:11px 22px;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+.btn,
+.btn-outline{
+    padding:10px 20px;
+    font-size:16px;
+    border-radius:22px;
+}
+/* ===========================
+   iPad Pro + Watch
+=========================== */
+
+.ipad-pro{
+    background:url("ipad pro.jpg") no-repeat center bottom;
+    background-size:contain;
+    background-color:#000;
+}
+
+
+.watch-card{
+    background:url("watchs11.jpg") no-repeat center bottom;
+    background-size:contain;
+    background-color:#f5f5f7;
+}
+
+.ipad-pro .product-content{
+    color:#fff;
+}
+
+.watch-card .product-content{
+    color:#1d1d1f;
+}
+
+.watch-card h2{
+    font-size:50px;
+    font-weight:700;
+}
+
+.watch-card h3{
+    font-size:26px;
+    letter-spacing:4px;
+    margin-top:5px;
+}
+
+.watch-card p,
+.ipad-pro p{
+    font-size:28px;
+    margin-top:10px;
+    line-height:1.4;
+}
+.promo-grid{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    padding:12px;
+    background:#fff;
+}
+
+.card{
+    background:#f5f5f7;
+    height:600px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+}
+
+.card h1{
+    margin-top:50px;
+    font-size:55px;
+    font-weight:600;
+    color:#1d1d1f;
+}
+
+.card h2{
+    font-size:28px;
+    margin-top:10px;
+    font-weight:400;
+    color:#1d1d1f;
+    line-height:40px;
+}
+
+.btns{
+    margin-top:25px;
+}
+
+.btns a{
+    text-decoration:none;
+    background:#0071e3;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:25px;
+    margin:0 8px;
+    display:inline-block;
+    font-size:18px;
+}
+
+.buy{
+    background:transparent !important;
+    border:1px solid #0071e3;
+    color:#0071e3 !important;
+}
+
+.card img{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
